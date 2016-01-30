@@ -1,0 +1,12 @@
+.loaded * {
+  transition: opacity 1.5s ease-in;
+  opacity: 1;
+}
+
+.is-loading * {
+  opacity: 0;
+}
+
+.is-loading:before {
+  content: "Loading...";
+}
